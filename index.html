@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Json-Input | Page</title>
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        margin-top: 1rem;
+      "
+    >
+      <h1>Accepting JSON Form-</h1>
+      <form method="POST" action="/api">
+        <textarea name="json" rows="20" cols="70"></textarea>
+        <br />
+        <button
+          type="submit"
+          style="
+            font-size: 24px;
+            font-weight: 700;
+            margin: 10px;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+          "
+          onMouseOver="this.style.color='red', this.style.background='black'"
+          onMouseOut="this.style.color='white', this.style.background='blue' "
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Json-Result</title>
+    <style>
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        margin-top: 1rem;
+        flex-direction: column;
+        /* height: 100px;
+        width: 500px; */
+      }
+
+      #val {
+        display: inline-block;
+        border: 2px solid black;
+        padding: 2px;
+        width: 100px;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 50px;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Result :-</h1>
+    <div>
+      <p><%= key %> &nbsp; <span id="val"><%= jsObject.name %></span></p>
+    </div>
+  </body>
+</html>
